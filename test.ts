@@ -19,6 +19,7 @@ test('fizzbuzz', () => {
   assertEquals(fizzbuzz(14), '14')
   assertEquals(fizzbuzz(15), 'FizzBuzz')
   assertEquals(fizzbuzz(16), '16')
+  ssertEquals(fizzbuzz(18), 'Fizz')
   // ...
   assertEquals(fizzbuzz(98), '98')
   assertEquals(fizzbuzz(99), 'Fizz')
